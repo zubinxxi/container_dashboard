@@ -97,9 +97,8 @@ if not df.empty:
     # -----------------------------------
     # Sidebar para Filtros Interactivos
     # -----------------------------------
-    st.sidebar.image('assets/amp-logo-blanco.png', width=250)
+    st.sidebar.image('assets/amp-logo.png', width=250)
     st.sidebar.header("Opciones de Filtrado")
-    
     
     # Campos disponibles para filtrar
     filter_cols = ['operator', 'loading_port_', 'discharge_port', 'arrival_date', 'departure_date', 'status_', 'full_/_empty_', 'port_register_']

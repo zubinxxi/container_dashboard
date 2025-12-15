@@ -97,7 +97,7 @@ if not df.empty:
     # -----------------------------------
     # Sidebar para Filtros Interactivos
     # -----------------------------------
-    st.sidebar.image('assets/amp-logo.png', width=250)
+    st.sidebar.image('assets/amp_logo_espaciado.png', width='stretch')
     st.sidebar.header("Opciones de Filtrado")
     
     # Campos disponibles para filtrar
